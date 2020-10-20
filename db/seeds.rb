@@ -13,31 +13,31 @@ puts "Creating chores"
 chores = [
     {
       family_member: "Madeline",
-      due_date: "10/20/2020",
+      due_date: "2020-10-20",
       description: "Walk dog",
       priority: "Medium",
     },
     {
       family_member: "Logan",
-      due_date: "10/25/2020",
+      due_date: "2020-10-25",
       description: "Brush cat",
       priority: "Medium",
     },
     {
       family_member: "Tyler",
-      due_date: "10/17/2020",
+      due_date: "2020-10-17",
       description: "Wash, dry, & fold laundry",
       priority: "High",
     },
     {
       family_member: "Wendy",
-      due_date: "10/20/2020",
+      due_date: "2020-10-20",
       description: "Clean dishes",
       priority: "High",
     },
     {
       family_member: "Robert",
-      due_date: "10/30/2020",
+      due_date: "2020-10-30",
       description: "Re-paint garage doors",
       priority: "Low",
     }
