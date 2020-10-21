@@ -46,3 +46,8 @@ chores = [
   chores.each do |chore|
     Chore.create!(chore)
   end
+
+
+
+  puts "Destroying chores"
+  Chore.destroy_all
