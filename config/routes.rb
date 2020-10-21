@@ -8,4 +8,10 @@ Rails.application.routes.draw do
       resources :chores
     end
   end 
+
+  namespace :api do
+    namespace :v1 do
+      resources :goals
+    end
+  end 
 end

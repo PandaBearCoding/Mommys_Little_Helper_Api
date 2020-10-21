@@ -6,10 +6,8 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
         
-puts "Destroying chores"
 Chore.destroy_all
 
-puts "Creating chores"
 chores = [
     {
       family_member: "Madeline",
@@ -47,7 +45,3 @@ chores = [
     Chore.create!(chore)
   end
 
-
-
-  puts "Destroying chores"
-  Chore.destroy_all
