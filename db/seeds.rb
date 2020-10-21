@@ -7,6 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
         
 Chore.destroy_all
+Goal.destroy_all
 
 chores = [
     {
@@ -43,5 +44,30 @@ chores = [
 
   chores.each do |chore|
     Chore.create!(chore)
+  end
+
+  goals = [
+    {
+      total_points: "100",
+      current_points: "120",
+      reward: "Family Pizza Night",
+      date: "2020-10-23",
+    },
+    {
+      total_points: "100",
+      current_points: "80",
+      reward: "Movie Night",
+      date: "2020-10-9",
+    },
+    {
+      total_points: "100",
+      current_points: "100",
+      reward: "$20",
+      date: "2020-10-16",
+    }
+  ]
+
+  goals.each do |goal|
+    Goal.create!(goal)
   end
 
