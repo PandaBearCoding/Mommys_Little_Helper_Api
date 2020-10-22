@@ -15,30 +15,35 @@ chores = [
       due_date: "2020-10-20",
       description: "Walk dog",
       priority: "Medium",
+      status: "complete",
     },
     {
       family_member: "Logan",
       due_date: "2020-10-25",
       description: "Brush cat",
       priority: "Medium",
+      status: "incomplete",
     },
     {
       family_member: "Tyler",
       due_date: "2020-10-17",
       description: "Wash, dry, & fold laundry",
       priority: "High",
+      status: "complete",
     },
     {
       family_member: "Wendy",
       due_date: "2020-10-20",
       description: "Clean dishes",
       priority: "High",
+      status: "incomplete",
     },
     {
       family_member: "Robert",
       due_date: "2020-10-30",
       description: "Re-paint garage doors",
       priority: "Low",
+      status: "complete",
     }
   ]
 
@@ -48,20 +53,14 @@ chores = [
 
   goals = [
     {
-      total_points: "100",
-      current_points: "120",
       reward: "Family Pizza Night",
       date: "2020-10-23",
     },
     {
-      total_points: "100",
-      current_points: "80",
       reward: "Movie Night",
-      date: "2020-10-9",
+      date: "2020-10-09",
     },
     {
-      total_points: "100",
-      current_points: "100",
       reward: "$20",
       date: "2020-10-16",
     }
