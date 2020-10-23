@@ -23,7 +23,7 @@ class Api::V1::ChoresController < ApplicationController
 
     private
     def chore_params
-        params.require(:chore).permit(:family_member, :due_date, :description, :priority)
+        params.require(:chore).permit(:family_member, :due_date, :description, :priority, :status)
     end
-    
+
 end
