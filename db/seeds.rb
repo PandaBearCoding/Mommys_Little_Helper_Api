@@ -15,35 +15,35 @@ chores = [
       due_date: "2020-10-20",
       description: "Walk dog",
       priority: "Medium",
-      status: true,
+      status: false,
     },
     {
       family_member: "Logan",
       due_date: "2020-10-25",
       description: "Brush cat",
       priority: "Medium",
-      status: true,
+      status: false,
     },
     {
       family_member: "Tyler",
       due_date: "2020-10-17",
       description: "Wash, dry, & fold laundry",
       priority: "High",
-      status: true,
+      status: false,
     },
     {
       family_member: "Wendy",
       due_date: "2020-10-20",
       description: "Clean dishes",
       priority: "High",
-      status: true,
+      status: false,
     },
     {
       family_member: "Robert",
       due_date: "2020-10-30",
       description: "Re-paint garage doors",
       priority: "Low",
-      status: true,
+      status: false,
     }
   ]
 
