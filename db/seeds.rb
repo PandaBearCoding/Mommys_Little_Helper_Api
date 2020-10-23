@@ -29,14 +29,14 @@ chores = [
       due_date: "2020-10-17",
       description: "Wash, dry, & fold laundry",
       priority: "High",
-      status: false,
+      status: true,
     },
     {
       family_member: "Wendy",
       due_date: "2020-10-20",
       description: "Clean dishes",
       priority: "High",
-      status: false,
+      status: true,
     },
     {
       family_member: "Robert",
